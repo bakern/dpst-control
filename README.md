@@ -26,7 +26,7 @@ Each command does only one thing, and there is no GUI interface. To use:
 :warning: **MUST RUN AS ADMINISTRATOR** :warning:
 
 To check the status of DPST:
-* `get-status.bat`
+* `get-dpst-status.bat`
 
 To disable DPST:
 * `disable-dpst.bat`
@@ -35,6 +35,17 @@ To enable DPST:
 * `enable-dpst.bat`
 
 Typically DPST only needs to be disabled/enabled one time, however it may need to be re-run after major Windows updates or Intel&reg; graphics driver updates.
+
+Intel&reg; *Dynamic Refresh Rate Switching* (DRRS) changes the display refresh rate on mobile devices when the AC adapter is connected or disconnected.  This can cause issues such as the screen turning black for 1-2 seconds, windows disappearing due to compatibility issues, etc.  If you only want to disable DRRS you can run:
+
+To check the status of DRRS:
+* `get-drrs-status.bat`
+
+To disable DRRS:
+* `disable-drrs.bat`
+
+To enable DRRS:
+* `enable-drrs.bat`
 
 
 ## Method of Operation
